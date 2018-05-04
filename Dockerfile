@@ -20,4 +20,4 @@ COPY . /usr/src/app
 EXPOSE 3000
 
 # start app
-CMD npm start
+CMD ["npm", "start"]
